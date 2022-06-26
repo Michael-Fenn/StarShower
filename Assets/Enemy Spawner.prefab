@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4808804787464972161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4808804787464972163}
+  - component: {fileID: 4808804787464972162}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808804787464972163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4808804787464972161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.74, y: -0.94, z: -0.2226775}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4808804787464972162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4808804787464972161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab734e183abe659429a593d7007a3148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game_area: {fileID: 4393453862360564672, guid: 0fac860b31d7c6d46af29181d42930f6, type: 3}
+  ship_prefab: {fileID: 2610671222353876640, guid: 6914f1176e4590e4c9cd86e93e81699c, type: 3}
+  distance_enemy: {fileID: 7006599716992270429, guid: 54b90b49db14b3b4792753c8999b734a, type: 3}
+  shotgun_enemy: {fileID: 2642711246084917041, guid: ff944356a474ebe4fb9d8fe241a176fd, type: 3}
+  ship_count: 0
+  distance_count: 0
+  distance_limit: 5
+  shotgun_count: 0
+  shotgun_limit: 5
+  ship_limit: 15
+  ships_per_frame: 1
+  spawn_circle_radius: 25
+  death_circle_radius: 35
+  fastest_speed: 10
+  slowest_speed: 4
