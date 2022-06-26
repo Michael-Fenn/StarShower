@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
             }
         }
 
-        if (numHearts == 0){
+        if (numHearts <= 0){
             Destroy(GameObject.FindWithTag("Player"));
             GameOverScript.Setup(score_script.scoreValue);
         }

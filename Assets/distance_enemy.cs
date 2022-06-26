@@ -5,7 +5,7 @@ using UnityEngine;
 public class distance_enemy : MonoBehaviour
 {
 
-    public float speed = 5f;
+    public float speed = 4f;
 
     private GameObject player;
     private Transform playerTransform;
@@ -76,10 +76,10 @@ void OnCollisionEnter2D(Collision2D col){
          Destroy(col.gameObject);
          Destroy(gameObject);  
          ship_spawner.distance_count -= 1;
-        if (Random.Range(0,20)==hp_powerup){
+        if (Random.Range(0,10)==hp_powerup){
             Instantiate(hp_power, transform.position, Quaternion.identity);
         }
-        else if(Random.Range(0,20)==shot_powerup){
+        else if(Random.Range(0,10)==shot_powerup){
             Instantiate(shot_power, transform.position, Quaternion.identity);
         }
 

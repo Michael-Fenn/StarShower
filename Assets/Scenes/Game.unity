@@ -2367,7 +2367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4808804787464972162, guid: 6428ee4a2b50e104b927f36bf312b2e0, type: 3}
       propertyPath: ship_limit
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4808804787464972162, guid: 6428ee4a2b50e104b927f36bf312b2e0, type: 3}
       propertyPath: fastest_speed

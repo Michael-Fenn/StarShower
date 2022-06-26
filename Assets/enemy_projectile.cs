@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemy_projectile : MonoBehaviour
 {
-   private float speed = 5f;
+   private float speed = 3f;
     Rigidbody2D rb;
     Player target;
     Vector2 moveDirection;
